@@ -2,7 +2,7 @@ head {
     
 }
 
-ul {
+.header {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -62,8 +62,18 @@ input {
 }
 
 footer {
-    list-style-type: none;
-    padding: 0;
+    position: absolute;
     margin: 0;
-    bottom: 0;
+    bottom: 4px;
+    width: 100%;
+}
+
+.left {
+    list-style-type: none;
+    float: left;
+}
+
+.right {
+    list-style-type: none;
+    float: right;
 }
